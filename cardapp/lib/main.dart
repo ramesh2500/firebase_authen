@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           Center(
             child: CircleAvatar(
-              //backgroundColor: Colors.red,
+              backgroundColor: Colors.red,
               //backgroundImage: NetworkImage("https://upload.wikimedia.org/wikipedia/commons/9/9a/Mahesh_Babu_in_Spyder_%28cropped%29.jpg"),
               backgroundImage: AssetImage("images/mahesh.jpg"),
               radius: 80.00,
